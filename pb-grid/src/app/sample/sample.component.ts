@@ -12,11 +12,13 @@ export class SampleComponent implements OnInit {
       columnName: "Item number",
       mappedBy: "itemNum",
       filterType: "number",
+      filter : true
     },
     {
       columnName: "First Name",
       mappedBy: "firstName",
       filterType: "string",
+      filter : true
     }
   ];
 
