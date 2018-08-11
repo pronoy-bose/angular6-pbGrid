@@ -38,4 +38,4 @@ tableData = [
 ### Including the component
 ##### `<app-pb-grid [pbGridColConfig]="columnConfig" [pbGridData]="tableData"></app-pb-grid>`
 
-![Alt text](screenshot1.png?raw=true "Title")
+![Alt text](screenshot1.png?raw=true "Screen")
