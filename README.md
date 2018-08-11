@@ -14,7 +14,7 @@
 ## How to
 * Two things are requred - 1. Config 2. Data
 ### Config
-`
+```javascript
   columnConfig = [
     {
       columnName: "Item number", //The Column name to show as table header
@@ -29,12 +29,11 @@
       filter : true
     }
   ];
-`
-`
+
 tableData = [
     { itemNum: 1, firstName: 'John'}, //Must match the string specified in matchedBy
     { itemNum: 2, firstName: 'Jack'}
-`
+```
 
 ### Including the component
 ### `<app-pb-grid [pbGridColConfig]="columnConfig1" [pbGridData]="tableData1"></app-pb-grid>`
