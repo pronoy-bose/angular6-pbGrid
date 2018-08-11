@@ -36,4 +36,4 @@ tableData = [
 ```
 
 ### Including the component
-### `<app-pb-grid [pbGridColConfig]="columnConfig1" [pbGridData]="tableData1"></app-pb-grid>`
+##### `<app-pb-grid [pbGridColConfig]="columnConfig1" [pbGridData]="tableData1"></app-pb-grid>`
